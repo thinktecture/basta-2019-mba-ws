@@ -13,10 +13,4 @@ namespace BastaProductBackend
         public string Name { get; set; }
     }
 
-    public class ProductDetailItem : ProductListItem
-    {
-        public string Description { get; set; }
-
-        public string Color { get; set; }
-    }
 }
