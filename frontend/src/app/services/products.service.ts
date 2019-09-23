@@ -5,6 +5,7 @@ import { Observable, of } from 'rxjs';
 import { catchError, retry, tap } from 'rxjs/operators';
 import { environment } from '../../environments/environment';
 import { ProductDetailsItem } from '../models/product-details-item';
+import { CreateProductModel } from '../models/create-product-model';
 
 @Injectable({
   providedIn: 'root'
@@ -30,5 +31,10 @@ export class ProductsService {
       .pipe(
         catchError(err => of(null))
       );
+  }
+
+  public createProduct(model: CreateProductModel): Observable<ProductDetailsItem>{
+    const requestUrl = `${environment.apiRoot}`;
+    return this._http.post<ProductDetailsItem>(requestUrl, model);
   }
 }

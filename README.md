@@ -11,6 +11,7 @@ https://thns.io/basta-2019-ws
 - [Angular](https://angular.io)
 - [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/)
 - [Azure CosmosDb Partitioning](https://youtu.be/UZiccUhvWKE)
+- [Apache Cordova](https://cordova.apache.org/)
 
 ## Contact
 

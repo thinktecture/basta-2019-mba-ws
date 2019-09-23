@@ -22,6 +22,9 @@ export class ProductListComponent implements OnInit {
       });
   }
 
+  public addNewProduct(){
+    this._router.navigate(['create']);
+  }
   public goToDetails(id: string){
     if(id) {
       this._router.navigate(['details', id]);

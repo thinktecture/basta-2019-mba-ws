@@ -1,5 +1,5 @@
 <h4>Product Details</h4>
-<form [formGroup]="detailsForm">
+<form [formGroup]="detailsForm" (ngSubmit)="storeNewProduct()">
   <div class="form-group row">
     <label for="name" class="col-sm-2 col-form-label">Name</label>
     <div class="col-sm-10">
@@ -28,4 +28,8 @@
                 name="description" formControlName="description"></textarea>
     </div>
   </div>
+  <hr/>
+  <button class="btn btn-primary" *ngIf="isNewProduct" type="submit">Store new Product</button>
+
+
 </form>
