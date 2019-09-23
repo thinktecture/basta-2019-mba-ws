@@ -2,11 +2,15 @@
 
 Samples and Stuff from our full-day workshop at BASTA!2019 in Mainz.
 
+## Repository
+
+https://thns.io/basta-2019-ws
+
 ## Links
 
 - [Angular](https://angular.io)
 - [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/)
-
+- [Azure CosmosDb Partitioning](https://youtu.be/UZiccUhvWKE)
 
 ## Contact
 
