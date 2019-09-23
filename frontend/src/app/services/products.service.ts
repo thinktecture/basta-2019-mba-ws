@@ -7,9 +7,7 @@ import { environment } from '../../environments/environment';
 import { ProductDetailsItem } from '../models/product-details-item';
 import { CreateProductModel } from '../models/create-product-model';
 
-@Injectable({
-  providedIn: 'root'
-})
+
 export class ProductsService {
 
   constructor(private readonly _http: HttpClient) {

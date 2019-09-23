@@ -6,6 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "build-mobile": "ng build --configuration mobile --base-href=\".\"",
+    "build-desktop": "ng build --configuration production --base-href=\".\"",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
