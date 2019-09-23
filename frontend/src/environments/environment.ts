@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  apiRoot: 'https://fa-basta-2019-ws-backend.azurewebsites.net/api/products'
 };
 
 /*
